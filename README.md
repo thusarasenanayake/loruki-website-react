@@ -1,4 +1,4 @@
-## TypeScript version of [Loruki website](https://github.com/bradtraversy/loruki-website)
+## React version (using TypeScript) of [Loruki website](https://github.com/bradtraversy/loruki-website)
  
 ### Built With
 * [React.js](https://reactjs.org/)
