@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/loruki-website-react/static/css/main.fa97ef27.css",
+    "main.js": "/loruki-website-react/static/js/main.bb934c6b.js",
+    "static/js/787.1ce74e7d.chunk.js": "/loruki-website-react/static/js/787.1ce74e7d.chunk.js",
+    "index.html": "/loruki-website-react/index.html",
+    "main.fa97ef27.css.map": "/loruki-website-react/static/css/main.fa97ef27.css.map",
+    "main.bb934c6b.js.map": "/loruki-website-react/static/js/main.bb934c6b.js.map",
+    "787.1ce74e7d.chunk.js.map": "/loruki-website-react/static/js/787.1ce74e7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa97ef27.css",
+    "static/js/main.bb934c6b.js"
+  ]
+}
