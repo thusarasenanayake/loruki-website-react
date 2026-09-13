@@ -1,6 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import node from '../images/logos/node.png'
+import clojure from '../images/logos/clojure.png'
+import scala from '../images/logos/scala.png'
+import php from '../images/logos/php.png'
+import ruby from '../images/logos/ruby.png'
+import csharp from '../images/logos/csharp.png'
+import python from '../images/logos/python.png'
+import cloud from '../images/cloud.png'
+import cli from '../images/cli.png'
 interface Props {}
 
 const Home: React.FC<Props> = () => {
@@ -76,7 +84,7 @@ const Home: React.FC<Props> = () => {
       {/* CLI */}
       <section className="cli">
         <div className="container grid">
-          <img src="images/cli.png" alt="" />
+          <img src={cli} alt="" />
           <div className="card">
             <h3>Easy to use, cross platform CLI</h3>
           </div>
@@ -98,7 +106,7 @@ const Home: React.FC<Props> = () => {
               Read More
             </Link>
           </div>
-          <img src="images/cloud.png" alt="" />
+          <img src={cloud} alt="" />
         </div>
       </section>
 
@@ -108,31 +116,31 @@ const Home: React.FC<Props> = () => {
         <div className="container flex">
           <div className="card">
             <h4>Node.js</h4>
-            <img src="images/logos/node.png" alt="" />
+            <img src={node} alt="" />
           </div>
           <div className="card">
             <h4>Python</h4>
-            <img src="images/logos/python.png" alt="" />
+            <img src={python} alt="" />
           </div>
           <div className="card">
             <h4>C#</h4>
-            <img src="images/logos/csharp.png" alt="" />
+            <img src={csharp} alt="" />
           </div>
           <div className="card">
             <h4>Ruby</h4>
-            <img src="images/logos/ruby.png" alt="" />
+            <img src={ruby} alt="" />
           </div>
           <div className="card">
             <h4>PHP</h4>
-            <img src="images/logos/php.png" alt="" />
+            <img src={php} alt="" />
           </div>
           <div className="card">
             <h4>Scala</h4>
-            <img src="images/logos/scala.png" alt="" />
+            <img src={scala} alt="" />
           </div>
           <div className="card">
             <h4>Clojure</h4>
-            <img src="images/logos/clojure.png" alt="" />
+            <img src={clojure} alt="" />
           </div>
         </div>
       </section>
